@@ -6,6 +6,9 @@ tasks:
   - name: terraform
     before: |
       ./bin/terraform_cli_install.sh
+    init: |
+      cd iac/terraform
+      terraform init
   - name: cdk
     before: |
       npm i -g aws-cdk
