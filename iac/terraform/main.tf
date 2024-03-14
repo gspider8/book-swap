@@ -12,7 +12,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
-variable project {
+variable proj {
     type = string
     default = "book-swap"
 }
