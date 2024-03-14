@@ -7,6 +7,8 @@ resources:
 https://pfertyk.me/2023/01/creating-a-static-website-with-terraform-and-aws/
 https://registry.terraform.io/providers/hashicorp/aws/latest/docs
 ChatGPT
+
+From AWS Pricing, you can probably leave cloudfront up.
 ### Cognito
 https://ldarren.medium.com/access-aws-s3-with-cognito-7c96fd1038f0
 https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool_client
